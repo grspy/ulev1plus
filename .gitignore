@@ -1,0 +1,10 @@
+*.iml
+/.gradle/
+/.idea/caches/
+/.idea/libraries/
+/.idea/workspace.xml
+/app/build/
+/build/
+/local.properties
+
+\.idea/

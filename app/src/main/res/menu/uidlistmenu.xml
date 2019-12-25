@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.grspy.ulev1plus.MainActivity">
+
+    <item
+        android:id="@+id/add_new"
+        android:title="Add new"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/import_list"
+        android:title="Import"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/export_list"
+        android:title="Export"
+        app:showAsAction="never" />
+
+</menu>

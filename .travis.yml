@@ -1,0 +1,14 @@
+language: android
+
+# https://docs.travis-ci.com/user/languages/android/
+# https://developer.android.com/studio/releases/build-tools
+# XXX: keep min & max versions in sync with `./app/build.gradle`
+android:
+  components:
+    - build-tools-28.0.2
+    - android-28
+    - android-25
+    - sys-img-armeabi-v7a-android-25
+    - tools
+    - platform-tools
+    - tools

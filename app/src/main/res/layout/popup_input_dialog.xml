@@ -1,0 +1,88 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="end"
+            android:text="@string/input_uid" />
+
+        <EditText
+            android:id="@+id/uid"
+            android:digits="0123456789ABCDEF"
+            android:hint="@string/input_uid_hint"
+            android:inputType="textCapCharacters"
+            android:maxLength="14" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="end"
+            android:text="@string/input_password" />
+
+        <EditText
+            android:id="@+id/password"
+            android:digits="0123456789ABCDEF"
+            android:hint="@string/input_password_hint"
+            android:inputType="textCapCharacters"
+            android:maxLength="8" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="end"
+            android:text="@string/input_pack" />
+
+        <EditText
+            android:id="@+id/pack"
+            android:digits="0123456789ABCDEF"
+            android:hint="@string/input_pack_hint"
+            android:inputType="textCapCharacters"
+            android:maxLength="4" />
+
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button_cancel_tag_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/button_save_tag_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/save_tag_data"
+            android:textAllCaps="false"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+</TableLayout>
